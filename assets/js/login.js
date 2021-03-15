@@ -75,9 +75,9 @@ $(function () {
             success: (res) => {
                 //    console.log(res);
                 if (res.status !== 0) return layer.msg(res.message, { icon: 5 });
-                localStorage.setItem('token', res.tokenize)
+                localStorage.setItem('token', res.token)
                 // 跳转
-                location.href = "/index.html"
+                location.href = "./index.html"
             }
         })
     })

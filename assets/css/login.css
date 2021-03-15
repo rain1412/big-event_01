@@ -38,6 +38,7 @@ html,body{
     position: absolute;
     top: 10px;
     left: 10px;
+    z-index: 1;
 }
 .layui-input{
     padding-left: 35px;
